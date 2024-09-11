@@ -1,0 +1,19 @@
+{
+  "name": "@taeo/boilerplate-package",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is boilerplate packages",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/foo",
+      "packages/var"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/taetaeo"
+}

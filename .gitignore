@@ -1,0 +1,14 @@
+# node_modules
+**/node_modules
+
+# builds
+**/dist
+
+# Package-lock json
+**/package-lock.json
+
+# yarn
+**/yarn*
+
+# env
+**/.env**
