@@ -2,8 +2,12 @@
   "name": "@taeo/var",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "browser": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "release": "sh ./scripts/release.sh",
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
