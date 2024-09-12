@@ -1,7 +1,9 @@
 {
   "name": "@taeo/foo",
-  "version": "1.0.4",
-  "private": false,
+  "version": "1.0.5",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -12,7 +14,7 @@
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "taetaeo",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
@@ -24,5 +26,9 @@
   "files": [
     "dist",
     "README.md"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taetaeo/boilerplate-2024-packages.git"
+  }
 }
